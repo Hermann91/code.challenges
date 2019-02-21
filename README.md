@@ -1,12 +1,12 @@
 # Code Challenges Problems
 
-###My solutions for the problems are written using `Python 2.7+`, and unittests built-in.
+My solutions for the problems are written using `Python 2.7+`, and unittests built-in.
 
 ### [Profile]()
 
 ### Code CodeWars
 
-#####![Codewars Rank](https://www.codewars.com/users/elias-neves93/badges/large)
+![Codewars Rank](https://www.codewars.com/users/elias-neves93/badges/large)
 
 ### [Ranking](http://www.codewars.com/about)
 
