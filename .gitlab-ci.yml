@@ -6,13 +6,11 @@ stages:
 before_script:
   - apt update -y
   - apt upgrade -y
-  - pip install pipenv
+  - pip install -r requirements.txt
 
 test:
   stage: tests-codewars
   script:
-    - pipenv --python /usr/local/bin/python3.7 shell
-    - pipenv --python /usr/local/bin/python3.7 install
     - python manager.py tests-codewars
   artifacts:
     name: CHALLENGES-$CI_PIPELINE_ID
