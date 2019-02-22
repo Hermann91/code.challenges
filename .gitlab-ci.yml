@@ -11,7 +11,7 @@ before_script:
 test:
   stage: tests-codewars
   script:
-    - pipenv --python /usr/local/bin/python3.7
+    - pipenv --python /usr/local/bin/python3.7 install
     - python manager.py tests-codewars
   artifacts:
     name: CHALLENGES-$CI_PIPELINE_ID
