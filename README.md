@@ -1,6 +1,8 @@
 # Code Challenges Problems
+![build status](https://gitlab.com/elias-neves93/code.challenges/badges/master/build.svg)
 
 My solutions for the problems are written using `Python 2.7+`, and unittests built-in.
+
 
 ### [Profile]()
 
