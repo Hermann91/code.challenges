@@ -6,6 +6,7 @@ stages:
 before_script:
   - apt update -y
   - apt upgrade -y
+  - pip install pipenv
 
 test:
   stage: tests-codewars
