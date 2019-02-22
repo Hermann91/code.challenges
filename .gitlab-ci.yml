@@ -1,0 +1,16 @@
+image: "python:3.7"
+
+stages:
+  - tests-codewars
+
+before_script:
+  - apt update -y
+  - apt upgrade -y
+
+test:
+  stage: tests-codewars
+  script:
+    - python manager.py tests-codewars
+  artifacts:
+    name: CHALLENGES-$CI_PIPELINE_ID
+    expire_in: 1 week
